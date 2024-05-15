@@ -1,0 +1,12 @@
+git仓库 分为工作区、版本区（暂存区git add、仓库区 git commit）、远程仓库
+
+初始化一个git仓库
+git init
+把工作区文件添加到暂存区
+git add <file> 或者 git add .
+
+撤销工作区修改
+git checkout --<file>
+
+把暂存区文件放回工作区
+git reset HEAD <file> 或者 git reset HEAD . （撤销全部）
