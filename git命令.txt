@@ -2,6 +2,10 @@ git仓库 分为工作区、版本区（暂存区git add、仓库区 git commit�
 
 初始化一个git仓库
 git init
+
+连接本地仓库和远程仓库
+git remote add origin https://github.com/name/name_cangku.git 把本地仓库与远程仓库连接起来。
+
 把工作区文件添加到暂存区
 git add <file> 或者 git add .
 
@@ -10,3 +14,6 @@ git checkout --<file>
 
 把暂存区文件放回工作区
 git reset HEAD <file> 或者 git reset HEAD . （撤销全部）
+
+提交代码到版本区
+git commit -m "备注"
