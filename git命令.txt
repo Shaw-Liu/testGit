@@ -6,6 +6,9 @@ git init
 连接本地仓库和远程仓库
 git remote add origin https://github.com/name/name_cangku.git 把本地仓库与远程仓库连接起来。
 
+把仓库区的文件提交到远程仓库里。
+git push -u origin master  第一次提交使用-u
+
 把工作区文件添加到暂存区
 git add <file> 或者 git add .
 
@@ -17,3 +20,9 @@ git reset HEAD <file> 或者 git reset HEAD . （撤销全部）
 
 提交代码到版本区
 git commit -m "备注"
+
+拉远程代码
+git pull 
+
+推送代码到远程
+git push 或者 git push origin <branch>
